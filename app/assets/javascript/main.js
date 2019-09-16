@@ -60,7 +60,7 @@ $('#apply-filters').click(function() {
     $(':checkbox:checked').each(function(i){
       val[i] = $(this).val();
 
-      if (val == "prescribing"){
+      if (val == "prescribing,prescribing"){
           $('.solution-one').hide();
           $('.solution-two').hide();
           $('.solution-three').hide();
@@ -108,7 +108,7 @@ $('#apply-filters').click(function() {
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
-      else if (val == "appointments-management-citizen,referral-management,resource-management,patient-information-maintenance,prescribing,recording-consultations"){
+      else if (val == "appointments-management-citizen,referral-management,resource-management,patient-information-maintenance,prescribing,recording-consultations,appointments-management-citizen,prescribing,recording-consultations,patient-information-maintenance,resource-management"){
         $('.solution-one').hide();
         $('.solution-two').show();
         $('.solution-three').hide();
@@ -305,7 +305,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').show();
         $('.solution-eighteen').show();
         $('.solution-nineteen').show();
-        $('.solution-twenty').hide();
+        $('.solution-twenty').show();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
