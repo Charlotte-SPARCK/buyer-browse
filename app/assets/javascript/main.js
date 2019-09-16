@@ -55,7 +55,7 @@ $('#apply-filters').click(function() {
           $('.solution-five').hide();
           $('.no-results').css('display', 'none');
       }
-      else if (val == "prescribing,patient-information-maintenance,recording-consultations"){
+      else if (val == "patient-information-maintenance,prescribing,recording-consultations"){
         $('.solution-one').show();
         $('.solution-two').hide();
         $('.solution-three').hide();
