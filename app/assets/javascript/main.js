@@ -344,6 +344,10 @@ $('input[value=resource-management]').click(function() {
   $("input[value=resource-management]").prop('checked', true);
 });
 
+$('input[value=referral-management]').click(function() {
+  $("input[value=referral-management]").prop('checked', true);
+});
+
 $('input[value=patient-information-maintenance]').click(function() {
   $("input[value=patient-information-maintenance]").prop('checked', true);
 });
