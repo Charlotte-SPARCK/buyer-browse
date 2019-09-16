@@ -23,7 +23,7 @@ $('#foundation-match').click(function() {
       $('.solution-seventeen').hide();
       $('.solution-eighteen').hide();
       $('.solution-nineteen').hide();
-      $('.solution-tewnty').hide();
+      $('.solution-twenty').hide();
       $('.matched').css('display', 'inline');
       $("input[name=non-foundation-capabilities]").attr('disabled','disabled');
 
@@ -80,7 +80,7 @@ $('#apply-filters').click(function() {
           $('.solution-seventeen').hide();
           $('.solution-eighteen').hide();
           $('.solution-nineteen').hide();
-          $('.solution-tewnty').hide();
+          $('.solution-twenty').hide();
           $('.no-results').css('display', 'none');
           $('.matched').css('display', 'inline');
       }
@@ -104,7 +104,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -128,7 +128,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
 
@@ -161,7 +161,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -185,7 +185,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -209,7 +209,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -233,7 +233,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -257,7 +257,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -281,7 +281,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -305,7 +305,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').show();
         $('.solution-eighteen').show();
         $('.solution-nineteen').show();
-        $('.solution-tewnty').show();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
@@ -329,7 +329,7 @@ $('#apply-filters').click(function() {
         $('.solution-seventeen').hide();
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
-        $('.solution-tewnty').hide();
+        $('.solution-twenty').hide();
         $('.no-results').css('display', 'none');
         $('.matched').css('display', 'inline');
       }
