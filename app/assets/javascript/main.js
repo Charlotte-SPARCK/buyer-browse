@@ -330,7 +330,7 @@ $('#apply-filters').click(function() {
         $('.solution-eighteen').hide();
         $('.solution-nineteen').hide();
         $('.solution-twenty').hide();
-        $('.no-results').css('display', 'none');
+        $('.no-results').css('display', 'block');
         $('.matched').css('display', 'inline');
       }
     });
