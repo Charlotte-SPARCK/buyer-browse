@@ -42,34 +42,34 @@ $('#foundation-match').click(function() {
 //     }
 // });
 
-// $('#apply-filters').click(function() {
-//     var val = [];
-//     $(':checkbox:checked').each(function(i){
-//       val[i] = $(this).val();
-//
-//       if (val == "prescribing"){
-//           $('.solution-one').hide();
-//           $('.solution-two').hide();
-//           $('.solution-three').hide();
-//           $('.solution-four').show();
-//           $('.solution-five').hide();
-//           $('.no-results').css('display', 'none');
-//       }
-//       else if (val == "prescribing,patient-information-maintenance,recording-consultations"){
-//         $('.solution-one').show();
-//         $('.solution-two').hide();
-//         $('.solution-three').hide();
-//         $('.solution-four').hide();
-//         $('.solution-five').hide();
-//         $('.no-results').css('display', 'none');
-//       }
-//       else {
-//         $('.solution-one').hide();
-//         $('.solution-two').hide();
-//         $('.solution-three').hide();
-//         $('.solution-four').hide();
-//         $('.solution-five').hide();
-//         $('.no-results').css('display', 'block');
-//       }
-//     });
-// });
+$('#apply-filters').click(function() {
+    var val = [];
+    $(':checkbox:checked').each(function(i){
+      val[i] = $(this).val();
+
+      if (val == "prescribing"){
+          $('.solution-one').hide();
+          $('.solution-two').hide();
+          $('.solution-three').hide();
+          $('.solution-four').show();
+          $('.solution-five').hide();
+          $('.no-results').css('display', 'none');
+      }
+      else if (val == "prescribing,patient-information-maintenance,recording-consultations"){
+        $('.solution-one').show();
+        $('.solution-two').hide();
+        $('.solution-three').hide();
+        $('.solution-four').hide();
+        $('.solution-five').hide();
+        $('.no-results').css('display', 'none');
+      }
+      else {
+        $('.solution-one').hide();
+        $('.solution-two').hide();
+        $('.solution-three').hide();
+        $('.solution-four').hide();
+        $('.solution-five').hide();
+        $('.no-results').css('display', 'block');
+      }
+    });
+});
