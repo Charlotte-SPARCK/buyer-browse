@@ -102,6 +102,10 @@ td {
 
   a {
     text-decoration: none;
+
+    &:hover {
+      box-shadow: none;
+    }
   }
   .log-in-cta {
     background-color: $color_nhsuk-green;
@@ -164,7 +168,13 @@ td {
       text-decoration: none;
       font-weight: bold;
       color: $color_nhsuk-blue;
+
+      &:hover {
+        box-shadow: none;
+      }
     }
+
+
 
     h3 {
       color: $color_nhsuk-white;
